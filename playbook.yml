@@ -1,5 +1,5 @@
-- hosts: webserver
-  user: centos
+- hosts: web
+  user: root
   become: true
   tasks:
     - name: create directory
